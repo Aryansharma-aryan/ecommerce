@@ -1,0 +1,24 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+
+.spinner {
+  width:60px;
+  height: 60px;
+  border: 2px solid red;
+  border-top: 6px solid green;
+border-radius: 50%;
+animation: spin 3s linear infinit;
+
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);}
+}
